@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(19, 38, 126);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 52%;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    width: 52%;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(11, 226, 208);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
